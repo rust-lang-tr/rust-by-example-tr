@@ -5,7 +5,7 @@
 [travis-badge]: https://travis-ci.com/rust-lang/rust-by-example.svg?branch=master
 [travis-repo]: https://travis-ci.com/rust-lang/rust-by-example
 
-Rust'ı örneklerle öğrenin! (Live code editor included)
+Rust'ı örneklerle öğrenin! (Canlı kod düzenleyici dahil)
 
 ## Using
 
