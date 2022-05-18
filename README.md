@@ -1,18 +1,18 @@
-# Rust By Example
+# Örneklerle Rust
 
 [![Build Status][travis-badge]][travis-repo]
 
 [travis-badge]: https://travis-ci.com/rust-lang/rust-by-example.svg?branch=master
 [travis-repo]: https://travis-ci.com/rust-lang/rust-by-example
 
-Learn Rust with examples (Live code editor included)
+Rust'ı örneklerle öğrenin! (Live code editor included)
 
 ## Using
 
-If you'd like to read Rust by Example, you can visit <https://doc.rust-lang.org/rust-by-example/>
+Örnekle Rust'u okumak isterseniz, ziyaret edebilirsiniz. <https://doc.rust-lang.org/rust-by-example/>
 to read it online.
 
-If you'd like to read it locally, [install Rust], and then:
+Yerel olarak okumak isterseniz, [Rust'ı yükle], ardından:
 
 ```bash
 $ git clone https://github.com/rust-lang/rust-by-example
@@ -22,35 +22,35 @@ $ mdbook build
 $ mdbook serve
 ```
 
-[install Rust]: https://www.rust-lang.org/tools/install
+[Rust'ı yükle]: https://www.rust-lang.org/tools/install
 
-To be able to run the examples, you must be connected to the internet; you can
-read all content offline, however!
+Örnekleri çalıştırabilmek için internete bağlı olmanız gerekir; yapabilirsin
+ancak tüm içeriği çevrimdışı olarak okuyun!
 
-## Contributing
+## Katkılar
 
-Please see the [CONTRIBUTING.md] file for more details.
+Daha fazla ayrıntı için lütfen [CONTRIBUTING.md] dosyasına bakın.
 
 [CONTRIBUTING.md]: https://github.com/rust-lang/rust-by-example/blob/master/CONTRIBUTING.md
 
-## Translations to other languages
+## Diğer dillere çeviriler
 
-* [Chinese](https://github.com/rust-lang-cn/rust-by-example-cn)
-* [Japanese](https://github.com/rust-lang-ja/rust-by-example-ja)
-* [French](https://github.com/Songbird0/FR_RBE)
-* [Russian](https://github.com/ruRust/rust-by-example)
+* [Çince](https://github.com/rust-lang-cn/rust-by-example-cn)
+* [Japonca](https://github.com/rust-lang-ja/rust-by-example-ja)
+* [Fransızca](https://github.com/Songbird0/FR_RBE)
+* [Rusça](https://github.com/ruRust/rust-by-example)
 
-## License
+## Lisans
 
-Rust by Example is licensed under either of
+Örnek olarak Rust, aşağıdakilerden biri kapsamında lisanslanmıştır:
 
-* Apache License, Version 2.0, ([LICENSE-APACHE](LICENSE-APACHE) or
+* Apache License, Version 2.0, ([LICENSE-APACHE](LICENSE-APACHE) ya da
   <http://www.apache.org/licenses/LICENSE-2.0>)
-* MIT license ([LICENSE-MIT](LICENSE-MIT) or
+* MIT license ([LICENSE-MIT](LICENSE-MIT) ya da
   <http://opensource.org/licenses/MIT>)
 
-at your option.
+senin seçeneğin.
 
-Unless you explicitly state otherwise, any contribution intentionally submitted
-for inclusion in Rust by Example by you, as defined in the Apache-2.0 license, shall be
-dually licensed as above, without any additional terms or conditions.
+Açıkça aksini belirtmediğiniz sürece, kasıtlı olarak gönderilen herhangi bir katkı
+Apache-2.0 lisansında tanımlandığı gibi, tarafınızca Rust by Example'a dahil edilmek üzere,
+herhangi bir ek şart veya koşul olmaksızın yukarıdaki gibi çift lisanslıdır.
