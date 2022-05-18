@@ -7,7 +7,7 @@
 
 Rust'ı örneklerle öğrenin! (Canlı kod düzenleyici dahil)
 
-## Using
+## Kullanım
 
 Örnekle Rust'u okumak isterseniz, ziyaret edebilirsiniz. <https://doc.rust-lang.org/rust-by-example/>
 to read it online.
