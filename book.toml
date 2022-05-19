@@ -1,7 +1,7 @@
 [book]
-title = "Rust By Example"
-description = "Rust by Example (RBE) is a collection of runnable examples that illustrate various Rust concepts and standard libraries."
-author = "The Rust Community"
+title = "Örneklerle Rust"
+description = "Örneklerle Rust (RBE), çeşitli Rust kavramlarını ve standart kitaplıkları gösteren çalıştırılabilir örneklerden oluşan bir koleksiyondur."
+author = "Rust Topluluğu"
 
 [output.html.playpen]
 editable = true
@@ -11,7 +11,7 @@ editor = "ace"
 enable = true
 
 [output.html]
-git-repository-url = "https://github.com/rust-lang/rust-by-example"
+git-repository-url = "https://github.com/rust-lang-tr/rust-by-example-tr"
 
 [rust]
-edition = "2021"
+edition = "2022"
