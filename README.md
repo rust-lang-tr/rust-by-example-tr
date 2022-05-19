@@ -49,7 +49,7 @@ Daha fazla ayrıntı için lütfen [CONTRIBUTING.md] dosyasına bakın.
 * MIT license ([LICENSE-MIT](LICENSE-MIT) ya da
   <http://opensource.org/licenses/MIT>)
 
-senin tercihin.
+senin seçimin.
 
 Açıkça aksini belirtmediğiniz sürece, kasıtlı olarak gönderilen herhangi bir katkı
 Apache-2.0 lisansında tanımlandığı gibi, tarafınızca Rust by Example'a dahil edilmek üzere,
