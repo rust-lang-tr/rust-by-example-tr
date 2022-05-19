@@ -1,50 +1,42 @@
-# Rust by Example contribution guidelines
+# Örneklerle Rust katkı yönergeleri
 
-Thank you for your interest in making Rust by Example (also known as RBE)
-better! We'd love to have your contribution. We expect all contributors to
-abide by the [Rust code of conduct], which you can find at that link or in the
-[`CODE_OF_CONDUCT.md`] file in this repository.
+Örnekle Rust'u (RBE olarak da bilinir) yapmaya gösterdiğiniz ilgi için teşekkür ederiz.
+daha iyi! Katkılarınızı almak isteriz. Tüm katkı sahiplerini bekliyoruz
+bu bağlantıda veya şu adreste bulabileceğiniz [Rut davranış kurallarına] uyun.
+[`CODE_OF_CONDUCT.md`] dosyası bu depoda.
 
-[Rust code of conduct]: https://www.rust-lang.org/policies/code-of-conduct
+[Rust davranış kuralları]: https://www.rust-lang.org/policies/code-of-conduct
 [`CODE_OF_CONDUCT.md`]: https://github.com/rust-lang/rust-by-example/blob/master/CODE_OF_CONDUCT.md
 
-## License
+## Lisans
 
-RBE is dual licenced under the MIT and Apache 2.0 licenses, and so are all
-contributions. Please see the [`LICENSE-MIT`] and [`LICENSE-APACHE`] files in
-this directory for more details.
+RBE MIT altında çift lisanslıdır ve Apache 2.0 lisanslıdır ve tüm katkılar da öyledir.
+Daha fazla ayrıntı için lütfen bu dizindeki [`LICENSE-MIT`] ve [`LICENSE-APACHE`] dosyalarına bakın.
 
 [`LICENSE-MIT`]: https://github.com/rust-lang/rust-by-example/blob/master/LICENSE-MIT
 [`LICENSE-APACHE`]: https://github.com/rust-lang/rust-by-example/blob/master/LICENSE-APACHE
 
-## Pull Requests
+## Çekme İstekleri
 
-To make changes to RBE, please send in pull requests on GitHub to the `master`
-branch. We'll review them and either merge or request changes. Travis CI tests
-everything as well, so you may get feedback from it too.
+RBE'de değişiklik yapmak için lütfen GitHub'da `master` şubesine çekme istekleri gönderin. Bunları inceleyeceğiz ve ya birleştireceğiz ya da değişiklik talep edeceğiz. Travis CI da her şeyi test eder, böylece ondan da geri bildirim alabilirsiniz.
 
-If you make additions or other changes to a pull request, feel free to either amend
-previous commits or only add new ones, however you prefer. We may ask you to squash
-your commits before merging, depending.
+Bir çekme isteğinde eklemeler veya başka değişiklikler yaparsanız, tercihinize göre önceki taahhütleri değiştirmekten veya yalnızca yenilerini eklemekten çekinmeyin. Bağlı olarak birleşmeden önce taahhütlerinizi ezmenizi isteyebiliriz.
 
-## Issue Tracker
+## Sorun İzleyici
 
-You can find the issue tracker [on
-GitHub](https://github.com/rust-lang/rust-by-example/issues). If you've found a
-problem with RBE, please open an issue there.
+Sorun izleyiciyi [GitHub'da](https://github.com/rust-lang/rust-by-example/issues) bulabilirsiniz. RBE ile ilgili bir sorun bulduysanız, lütfen orada bir sorun açın.
 
-We use the following labels:
+Aşağıdaki etiketleri kullanıyoruz:
 
-* `enhancement`: This is for any request for new sections or functionality.
-* `bug`: This is for anything that's in RBE, but incorrect or not working.
-* `discussion`: A discussion about improving something in RBE; this may lead to new
-  enhancement or bug issues.
-* `E-mentor`: This issue has someone dedicated to helping a new contributor fix it!
-  Can apply to both enhancement or bug issues.
+* `enhancement`: Bu, yeni bölümler veya işlevler için herhangi bir istek içindir.
+* `bug`: Bu, RBE'de olan ancak yanlış olan veya çalışmayan her şey içindir.
+* `discussion`: RBE'de bir şeyi iyileştirme hakkında bir tartışma; bu, yeni geliştirme veya hata sorunlarına yol açabilir.
+* `E-mentor`: Bu sorunu, yeni bir katılımcının düzeltmesine yardımcı olmaya adamış biri var!
+  Hem geliştirme hem de hata sorunları için geçerli olabilir.
 
-## Development workflow
+## Geliştirme iş akışı
 
-To build RBE, [install Rust], and then:
+RBE oluşturmak için [Rust'ı yükleyin] ve ardından:
 
 ```bash
 $ git clone https://github.com/rust-lang/rust-by-example
@@ -53,17 +45,14 @@ $ cargo install mdbook
 $ mdbook build
 ```
 
-[install Rust]: http://rust-lang.org/install.html
+[Rust'ı yükleyin]: http://rust-lang.org/install.html
 
-The files will be in the `book` directory at the top-level; `mdbook serve` will
-open the contents in your web browser.
+Dosyalar en üst düzeydeki 'kitap' dizininde olacaktır; `mdbook serve` içeriği web tarayıcınızda açacaktır.
 
-To run the tests:
+Testleri çalıştırmak için:
 
 ```bash
 $ mdbook test
 ```
 
-If you're adding a new chapter, you'll need to edit `src\SUMMARY.md` to add it. If
-you're tweaking an existing example, you'll need to edit the corresponding file; check
-`src\SUMMARY.md` to see a mapping of where chapters go to files.
+Yeni bir bölüm ekliyorsanız, eklemek için `src\SUMMARY.md` dosyasını düzenlemeniz gerekir. Mevcut bir örnek üzerinde ince ayar yapıyorsanız, ilgili dosyayı düzenlemeniz gerekir; bölümlerin dosyalara nereye gittiğinin bir eşlemesini görmek için `src\SUMMARY.md`yi kontrol edin.
