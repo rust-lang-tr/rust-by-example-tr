@@ -6,15 +6,15 @@ bu bağlantıda veya şu adreste bulabileceğiniz [Rut davranış kurallarına] 
 [`CODE_OF_CONDUCT.md`] dosyası bu depoda.
 
 [Rust davranış kuralları]: https://www.rust-lang.org/policies/code-of-conduct
-[`CODE_OF_CONDUCT.md`]: https://github.com/rust-lang/rust-by-example/blob/master/CODE_OF_CONDUCT.md
+[`CODE_OF_CONDUCT.md`]: [https://github.com/rust-lang/rust-by-example/blob/master/CODE_OF_CONDUCT.md](https://github.com/rust-lang-tr/rust-by-example-tr/blob/master/CODE_OF_CONDUCT.md)
 
 ## Lisans
 
 RBE MIT altında çift lisanslıdır ve Apache 2.0 lisanslıdır ve tüm katkılar da öyledir.
 Daha fazla ayrıntı için lütfen bu dizindeki [`LICENSE-MIT`] ve [`LICENSE-APACHE`] dosyalarına bakın.
 
-[`LICENSE-MIT`]: https://github.com/rust-lang/rust-by-example/blob/master/LICENSE-MIT
-[`LICENSE-APACHE`]: https://github.com/rust-lang/rust-by-example/blob/master/LICENSE-APACHE
+[`LICENSE-MIT`]: [https://github.com/rust-lang/rust-by-example/blob/master/LICENSE-MIT](https://github.com/rust-lang-tr/rust-by-example-tr/blob/master/LICENSE-MIT)
+[`LICENSE-APACHE`]: [https://github.com/rust-lang-tr/rust-by-example-tr/blob/master/LICENSE-APACHE](https://github.com/rust-lang-tr/rust-by-example-tr/blob/master/LICENSE-APACHE)
 
 ## Çekme İstekleri
 
